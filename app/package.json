@@ -1,0 +1,31 @@
+{
+  "name": "leana",
+  "version": "1.0.0",
+  "description": "Leana Server",
+  "main": "app.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.23",
+    "express-jwt": "^6.0.0",
+    "bcrypt": "^5.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "Avi Takiyar",
+  "license": "ISC",
+  "keywords": [
+    "Leana",
+    "CMS",
+    "Avi Takiyar"
+  ]
+}
